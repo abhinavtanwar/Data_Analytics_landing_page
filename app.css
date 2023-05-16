@@ -61,3 +61,38 @@ h1 {
   color: white;
   line-height: 89%;
 }
+
+.cv {
+  display: grid;
+  place-items: center;
+  height: 80%;
+}
+
+.content p {
+  font-size: clamp(2rem, -0.875rem + 8.333vw, 3rem);
+  font-weight: 300;
+  line-height: 111%;
+  color: #847d93;
+  margin-top: 1.1em;
+}
+
+.cta {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 2.875em;
+  display: inline-block;
+  border: 1px solid #4d4d4d;
+  padding: 1.25em 1.25em 1.25em calc(2.5em + 1.5em);
+  position: relative;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  background: url("https://i.postimg.cc/JzKwwG16/arrow.png") no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+  left: 1.25em;
+}
